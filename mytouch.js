@@ -9,7 +9,7 @@
  * 3、业务中需要定义module，并将相关页面的处理方法定义为action，则相应的调用url为：url#module=action&var1=values1...
  */
 define('mytouch', function(require, exports, module) {
-	var $=require("{jquery}");
+	var $=require("{jquery}");//modulejs所支持的变量模块名，通过vars配置会翻译成最终的module
 	//读取配置，配置参数放在一个全局变量_mytouchConfig中，结构参考cfg变量
 	window["_mytouchConfig"] || (window["_mytouchConfig"] = {});
 	var cfg = {
