@@ -7,7 +7,7 @@ kpxu\wowowang\jimyan
 
 
 ##介绍:
-Mytouch是在modulejs基础上整合出的一套移动web模块化开发框架。
+Mytouch是在modulejs基础上整合出的一套移动web模块化开发框架，特别适用于webapp应用类场景的开发。
 实现上是通过对hashchange的变化，实现功能模块的加载和切换。根据hash规则中描述的module和action进行实例化和执行。
 ##主要特性：
 * 不涉及ui层，不侵入业务，具有极强的扩展和兼容性
